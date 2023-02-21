@@ -1,0 +1,57 @@
+.search {
+  padding: 48px 0;
+  background-color: #F2F6FA;
+
+  .container {
+    display: flex;
+    align-items: center;
+  }
+
+  svg {
+    margin-right: 20px;
+  }
+
+
+
+  &_descr {
+    margin-right: 7px;
+
+    color: #0A0D1A;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: -0.4px;
+    line-height: 22px;
+    max-width: 175px;
+  }
+
+  form {
+    display: flex;
+    align-items: center;
+
+    width: 100%;
+
+    input {
+      flex-grow: 1;
+      box-shadow: 0 0 0 1px rgba(77,102,153,0.2), 0 3px 6px 0 rgba(64,85,128,0.1);
+      border: none;
+      padding: 14px 25px;
+
+      color: #0A0D1A;
+      font-size: 16px;
+      letter-spacing: -0.4px;
+      line-height: 22px;
+
+      &::placeholder {
+        color: #0A0D1A;
+        font-size: 16px;
+        letter-spacing: -0.4px;
+        line-height: 22px;
+      }
+    }
+
+    .btn-one {
+      padding: 14px 36px 14px 37px;
+      margin-left: 10px;
+    }
+  }
+}
